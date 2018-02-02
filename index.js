@@ -9,6 +9,15 @@ function theBeatlesPlay (musicianArray, instrumentArray) {
 function johnLennonFacts (factsArray) {
   let factsCountdown = 0;
   while (factsCountdown < factsArray.length) {
-    factsArray[factsCountdown] = factsArray[factsCountdown] + "!!!"
+    factsArray[factsCountdown] = factsArray[factsCountdown] + "!!!";
+    factsCountdown++;
   }
+}
+
+function iLoveTheBeatles (number) {
+  var newArray = [];
+  do {
+    newArray.push("I love the Beatles!")
+    number++;
+  } while (number < 15);
 }
