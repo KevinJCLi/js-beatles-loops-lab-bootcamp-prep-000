@@ -1,6 +1,11 @@
 function theBeatlesPlay (musicianArray, instrumentArray) {
-  var newArray = [];
+  var musicianInstrumentPair = [];
   for (let i = 0; i < musicianArray.length; i++) {
-    newArray.push(`${musician} plays ${instrumentArray}`);
+    musicianInstrumentPair.push(`${musician} plays ${instrumentArray}`);
   }
+  return musicianInstrumentPair;
+}
+
+function johnLennonFacts (factsArray) {
+  
 }
