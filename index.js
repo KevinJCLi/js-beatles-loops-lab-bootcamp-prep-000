@@ -7,5 +7,6 @@ function theBeatlesPlay (musicianArray, instrumentArray) {
 }
 
 function johnLennonFacts (factsArray) {
-  while ()
+  let factsCountdown = 0;
+  while (factsCountdown < factsArray.length) {
 }
